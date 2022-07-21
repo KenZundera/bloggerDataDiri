@@ -50,10 +50,10 @@
       <div class="container text-center">
         <div class="row justify-content-center ">
           <div class="col-md-4 m-2">
-            <img src="assets/img/kel.jpg" alt="profile" class="img-fluid rounded-1">
+            <img src="assets/img/pp.jpg" alt="profile" class="img-fluid rounded-1">
           </div>
           <div class="col-md-4 m-2">
-            <img src="assets/img/pp.jpg" alt="profile" class="img-fluid rounded-1">
+            <img src="assets/img/kel.jpg" alt="profile" class="img-fluid rounded-1">
           </div>
         </div>
         <div class="row justify-content-center">
@@ -290,7 +290,7 @@
 
     <!-- Footer -->
     <section class="footer bg-primary text-white text-center pb-5" id="footer">
-      <footer>
+      <footer class="mt-5">
         <p>Created with <i class="bi bi-heart-fill text-danger shadow-md"></i> by <a href="https://www.instagram.com/icebear2309/" class="text-white fw-bold text-decoration-none">Suken</a></p>
       </footer>
     </section>
@@ -298,6 +298,15 @@
       
 
 
-          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+    <script>
+      const myModal = document.getElementById('myModal')
+      const myInput = document.getElementById('myInput')
+
+      myModal.addEventListener('shown.bs.modal', () => {
+        myInput.focus()
+      })
+    </script>
 </body>
 </html>
